@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "625939332457",
+    "project_id": "hr-policies-c321d",
+    "storage_bucket": "hr-policies-c321d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625939332457:android:e3979b43af47ab0e0151f8",
+        "android_client_info": {
+          "package_name": "com.developers.todoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Iavo7OmRuVyywk6t6sYsX_-P87ao4DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625939332457:android:0db52664f015e7000151f8",
+        "android_client_info": {
+          "package_name": "com.innovativewidget.iosnotificationstutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Iavo7OmRuVyywk6t6sYsX_-P87ao4DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
