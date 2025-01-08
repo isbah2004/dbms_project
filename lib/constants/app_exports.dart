@@ -64,3 +64,4 @@ export 'package:dbms_project/provider/dealprovider/deals.dart';
 export 'package:dbms_project/provider/supportprovider/support.dart';
 
 export 'package:dbms_project/models/profile.dart';
+export 'package:cloud_firestore/cloud_firestore.dart';

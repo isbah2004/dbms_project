@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:dbms_project/constants/app_exports.dart';
+import 'package:dbms_project/screens/todoscreen/home_screen.dart';
 
 class LoginProvider with ChangeNotifier {
   final storage = GetStorage();
@@ -40,7 +41,7 @@ class LoginProvider with ChangeNotifier {
       UserData userData = UserData.fromJson(data);
       Navigator.pushAndRemoveUntil(
           context,
-          MaterialPageRoute(builder: (context) => DashboardScreen()),
+          MaterialPageRoute(builder: (context) => const HomeScreen()),
           (route) => false);
       storage.write('userData', userData.toJson());
     } else {

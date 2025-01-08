@@ -1,4 +1,5 @@
 import 'package:dbms_project/constants/app_exports.dart';
+import 'package:dbms_project/provider/todoprovider/todo.dart';
   import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 void main() async {
@@ -19,6 +20,7 @@ await Firebase.initializeApp(
     ChangeNotifierProvider(create: (context) => LoginProvider()),
     ChangeNotifierProvider(create: (context) => ProfileProvider()),
     ChangeNotifierProvider(create: (context) => DealProvider()),
+    ChangeNotifierProvider(create: (context)=> TodoProvider())
   ], child: const MyApp()));
 }
 

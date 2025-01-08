@@ -1,6 +1,6 @@
 class Url {
   static const String baseUrl =
-      'https://dbmstodobackend.vercel.app/';
+      'https://backend-squareonecommunity.vercel.app/';
   static const String signUp = '${baseUrl}auth/signup';
   static const String forgotPassword = '${baseUrl}auth/forgot-password';
   static const String newPassword = '${baseUrl}auth/new-password';
